@@ -1,0 +1,80 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# Environment Variables
+
+.env
+.env.local
+
+# Streamlit Secrets
+
+Frontend/.streamlit/secrets.toml
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+# Logs
+
+*.log
+
+# ML Models
+
+*.pkl
+*.joblib
+*.safetensors
+*.h5
+*.pt
+*.pth
+
+# Build Files
+
+build/
+dist/
+*.egg-info/
+
+# IDE Files
+
+.vscode/
+.idea/
+
+# Testing
+
+.pytest_cache/
+.coverage
+
+# Temporary Files
+
+temp/
+tmp/
+
+# Generated Reports
+
+reports/
+exports/
+
+# SQLite Database
+
+*.db
+*.sqlite3
+
+job_descriptions.csv
+__pycache__/
