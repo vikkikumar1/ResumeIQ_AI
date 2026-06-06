@@ -51,6 +51,9 @@ def get_client() -> Client | None:
 
 
 def _session_dict(session, user) -> Dict[str, Any]:
+    print("\nACCESS TOKEN:")
+    print(session.access_token)
+    print()
     return {
         'access_token':  session.access_token,
         'refresh_token': session.refresh_token,
